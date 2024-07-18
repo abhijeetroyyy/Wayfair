@@ -30,12 +30,12 @@ Wayfair is a sample project to showcase web development skills using modern Java
 
 ## Project Structure
     /app # Main application directory.
-/components # Reusable components.
-/public # Static assets.
-/.gitattributes # Git configuration.
-/README.md # Project documentation.
-/package.json # Project metadata and dependencies.
-/tailwind.config.js # Tailwind CSS configuration.
+    /components # Reusable components.
+    /public # Static assets.
+    /.gitattributes # Git configuration.
+    /README.md # Project documentation.
+    /package.json # Project metadata and dependencies.
+    /tailwind.config.js # Tailwind CSS configuration.
 
 
 ## Usage
