@@ -48,6 +48,6 @@ Feel free to fork the repository and submit pull requests. Contributions are wel
 This project is open source and available under the MIT License.
 
 ## Contact
-For any questions or suggestions, please contact [abhijeetroyyy](mailto:abhijeetroyyy).
+For any questions or suggestions, please contact [abhijeetroyyy](mailto:abhijeetrou123@gmail.com).
 
 For more details, visit the [Wayfair GitHub repository](https://github.com/abhijeetroyyy/Wayfair).
