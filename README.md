@@ -1,7 +1,17 @@
 # Wayfair
 
 ## Overview
-Wayfair is a sample project to showcase web development skills using modern JavaScript frameworks and tools. This project is intended for educational purposes and personal experimentation.
+Welcome to the Wayfair Redesign project, an exciting endeavor crafted for the Re-Imagine. In this initiative, we've enhanced the user interface of Wayfair, a popular online store for home goods and furniture. Our goal is to streamline the user experience, making navigation intuitive and product discovery effortless.
+
+Key Features:
+Modern UI Design: We've revamped the UI with a sleek, modern look, focusing on usability and aesthetic appeal.
+
+Enhanced Navigation: Improved navigation bars and category filters ensure users can find what they need quickly and efficiently.
+
+Responsive Layout: Our design adapts seamlessly to various devices, providing a consistent experience across desktop and mobile platforms.
+
+Interactive Elements: From animated product previews to interactive tooltips, every detail enhances user engagement.
+
 
 ## Features
 - **Framework**: Built using Next.js for server-side rendering and fast performance.
