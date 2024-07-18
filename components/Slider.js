@@ -37,7 +37,7 @@ const Slider = () => {
       <div className="Image-Sliderrrr max-w-[1440px] mx-auto overflow-hidden relative">
         <div className="slider relative flex" ref={sliderRef}>
           {images.map((url, index) => (
-            <img key={index} src={url} alt={`Slide ${index + 1}`} className="hover:cursor-pointer w-full " />
+            <img key={index} src={url} alt={`Slide ${index + 1}`} className="hover:cursor-pointer w-full" />
           ))}
         </div>
         <div className="absolute w-full flex justify-center bottom-5">
