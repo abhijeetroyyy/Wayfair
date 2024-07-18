@@ -12,32 +12,42 @@ Wayfair is a sample project to showcase web development skills using modern Java
 
 ## Installation
 1. Clone the repository:
-   git clone https://github.com/abhijeetroyyy/Wayfair.git
+    ```sh
+    git clone https://github.com/abhijeetroyyy/Wayfair.git
+    ```
 2. Navigate to the project directory:
+    ```sh
     cd Wayfair
+    ```
 3. Install dependencies:
+    ```sh
     npm install
+    ```
 4. Run the development server:
+    ```sh
     npm run dev
+    ```
 
-# Project Structure
-/app: Main application directory.
-/components: Reusable components.
-/public: Static assets.
-.gitattributes: Git configuration.
-README.md: Project documentation.
-package.json: Project metadata and dependencies.
-tailwind.config.js: Tailwind CSS configuration.
-Usage
-Visit http://localhost:3000 in your browser to view the application. Modify components in the /components directory to see live updates.
+## Project Structure
+    /app # Main application directory.
+/components # Reusable components.
+/public # Static assets.
+/.gitattributes # Git configuration.
+/README.md # Project documentation.
+/package.json # Project metadata and dependencies.
+/tailwind.config.js # Tailwind CSS configuration.
 
-Contributing
+
+## Usage
+Visit [http://localhost:3000](http://localhost:3000) in your browser to view the application. Modify components in the `/components` directory to see live updates.
+
+## Contributing
 Feel free to fork the repository and submit pull requests. Contributions are welcome!
 
-License
+## License
 This project is open source and available under the MIT License.
 
-Contact
-For any questions or suggestions, please contact abhijeetroyyy.
+## Contact
+For any questions or suggestions, please contact [abhijeetroyyy](mailto:abhijeetroyyy).
 
-For more details, visit the Wayfair GitHub repository.
+For more details, visit the [Wayfair GitHub repository](https://github.com/abhijeetroyyy/Wayfair).
