@@ -4,6 +4,7 @@ import "./globals.css";
 import Slider from '@/components/Slider';
 import Department from '@/components/Department';
 import TopPicks from '@/components/TopPicks';
+import RugSale from '@/components/RugSale';
 const page = () => {
   return (
     <>
@@ -11,6 +12,7 @@ const page = () => {
     <Slider/>
     <Department/>
     <TopPicks/> 
+    <RugSale/>
     </>
   )
 }
