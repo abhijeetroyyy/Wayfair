@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useRef, useState } from 'react';
 
 const topPicksDetails = [
@@ -39,7 +39,7 @@ const TopPicks = () => {
     if (cardSliderRef.current) {
       cardSliderRef.current.scrollBy({
         left: -cardSliderRef.current.clientWidth,
-        behavior: 'smooth'
+        behavior: 'smooth',
       });
     }
   };
@@ -48,7 +48,7 @@ const TopPicks = () => {
     if (cardSliderRef.current) {
       cardSliderRef.current.scrollBy({
         left: cardSliderRef.current.clientWidth,
-        behavior: 'smooth'
+        behavior: 'smooth',
       });
     }
   };
@@ -72,35 +72,45 @@ const TopPicks = () => {
   };
 
   return (
-    <div className="Top-picks-for-the-season container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold text-center mb-8">Top Picks for the Season</h1>
+    <div className="container mx-auto px-4 py-8 max-w-screen-xl">
+      <h1 className="text-4xl font-bold text-center mb-8 text-gray-800">Top Picks for the Season</h1>
       <div className="relative">
-        <button onClick={scrollLeft} className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 z-10">‹</button>
+        <button
+          onClick={scrollLeft}
+          className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-3 rounded-full shadow-lg z-10 hover:bg-gray-700 transition-colors duration-300  md:block"
+        >
+          ‹
+        </button>
         <div
           ref={cardSliderRef}
-          className="card-slider-wrapper overflow-hidden"
+          className="overflow-hidden"
           onTouchStart={handleTouchStart}
           onTouchMove={handleTouchMove}
           onTouchEnd={handleTouchEnd}
         >
-          <div className="card-slider flex transition-transform duration-500 ease-in-out gap-4">
+          <div className="flex gap-6 transition-transform duration-500 ease-in-out" style={{ scrollSnapType: 'x mandatory' }}>
             {topPicksDetails.map((item, index) => (
-              <div 
-                key={index} 
-                className="card1 flex flex-col items-center justify-center p-6 rounded-lg shadow-lg text-center bg-gradient-to-b from-purple-400/75 via-purple-400/50 to-blue-300/45 flex-none w-full sm:w-1/2 md:w-1/3 lg:w-1/4"
-                style={{ scrollSnapAlign: 'start' }}
+              <div
+                key={index}
+                className="flex flex-col items-center justify-center p-6 rounded-lg shadow-lg text-center bg-gradient-to-b from-purple-400/75 via-purple-400/50 to-blue-300/45 flex-none w-64 sm:w-50 md:w-50"
+                style={{ scrollSnapAlign: 'center' }}
               >
-                <h2 className="text-xl font-semibold mb-2">{item.title}</h2>
-                <img src={item.imgSrc} alt={item.title} className="w-full h-48 object-contain mb-4 rounded" />
-                <p className="text-purple-700">{item.description}</p>
+                <h2 className="text-2xl font-semibold mb-2 text-gray-800">{item.title}</h2>
+                <img src={item.imgSrc} alt={item.title} className="w-full h-48 object-contain mb-4 rounded-lg" />
+                <p className="text-gray-600">{item.description}</p>
               </div>
             ))}
           </div>
         </div>
-        <button onClick={scrollRight} className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 z-10">›</button>
+        <button
+          onClick={scrollRight}
+          className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-3 rounded-full shadow-lg z-10 hover:bg-gray-700 transition-colors duration-300  md:block"
+        >
+          ›
+        </button>
       </div>
     </div>
   );
-}
+};
 
 export default TopPicks;
