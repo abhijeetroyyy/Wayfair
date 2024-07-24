@@ -5,6 +5,10 @@ import Slider from '@/components/Slider';
 import Department from '@/components/Department';
 import TopPicks from '@/components/TopPicks';
 import RugSale from '@/components/RugSale';
+import BrandCarousel from '@/components/BrandCarousel';
+import ImpactSection from '@/components/ImpactSection';
+import About from '@/components/About';
+import Footer from '@/components/Footer';
 const page = () => {
   return (
     <>
@@ -13,6 +17,10 @@ const page = () => {
     <Department/>
     <TopPicks/> 
     <RugSale/>
+    <BrandCarousel/>
+    <ImpactSection/>
+    <About/>
+    <Footer/>
     </>
   )
 }
