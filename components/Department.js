@@ -1,7 +1,7 @@
 import React from 'react';
 
 const departments = [
-  { imgSrc: "https://assets.wfcdn.com/im/32978703/timg-h241-w241%5Ecompr-r85/2811/281156549/default_name.jpg", text: "Sale" },
+  { imgSrc: "https://assets.wfcdn.com/im/05986081/timg-h241-w241%5Ecompr-r85/8535/85357250/default_name.jpg", text: "Sale" },
   { imgSrc: "https://assets.wfcdn.com/im/20374007/timg-h241-w241%5Ecompr-r85/9847/98477101/default_name.jpg", text: "Furniture" },
   { imgSrc: "https://assets.wfcdn.com/im/78973905/timg-h241-w241%5Ecompr-r85/9847/98477118/default_name.jpg", text: "Outdoor" },
   { imgSrc: "https://assets.wfcdn.com/im/11352763/timg-h241-w241%5Ecompr-r85/1323/132350539/default_name.jpg", text: "Bedding & Bath" },
@@ -10,11 +10,11 @@ const departments = [
   { imgSrc: "https://assets.wfcdn.com/im/13026644/timg-h241-w241%5Ecompr-r85/9847/98477115/default_name.jpg ", text: "Lighting" },
   { imgSrc: "https://assets.wfcdn.com/im/59082384/timg-h241-w241%5Ecompr-r85/9847/98477108/default_name.jpg ", text: "Home Improvement" },
   { imgSrc: "https://assets.wfcdn.com/im/78368703/timg-h241-w241%5Ecompr-r85/9847/98477082/default_name.jpg", text: "Appliances" },
-  { imgSrc: "https://assets.wfcdn.com/im/30854194/timg-h241-w241%5Ecompr-r85/2692/269209725/default_name.jpg", text: "Kitchen" },
+  { imgSrc: "https://res.cloudinary.com/ddjvqd8o4/image/upload/v1721814431/uploads/fw7jp8m3rvboctt7nejh.png", text: "Kitchen" },
   { imgSrc: "https://assets.wfcdn.com/im/44333123/timg-h241-w241%5Ecompr-r85/9847/98477084/default_name.jpg", text: "Baby & Kids" },
   { imgSrc: "https://assets.wfcdn.com/im/32533450/timg-h241-w241%5Ecompr-r85/9847/98477124/default_name.jpg", text: "Organisation" },
-  { imgSrc: "https://assets.wfcdn.com/im/76680020/timg-h241-w241%5Ecompr-r85/2320/232096871/default_name.jpg", text: "Custom Cabinetry" },
-  { imgSrc: "https://assets.wfcdn.com/im/96777493/timg-h241-w241%5Ecompr-r85/1321/132124505/default_name.jpg", text: "Pet" },
+  { imgSrc: "https://www.pngmart.com/files/8/Kitchen-PNG-Background.png", text: "Custom Cabinetry" },
+  { imgSrc: "https://png.pngtree.com/png-vector/20231019/ourmid/pngtree-white-and-brown-cute-dog-animal-png-image_10211052.png", text: "Pet" },
 ];
 
 const Department = () => {
