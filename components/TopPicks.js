@@ -77,7 +77,7 @@ const TopPicks = () => {
       <div className="relative">
         <button
           onClick={scrollLeft}
-          className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-3 rounded-full shadow-lg z-10 hover:bg-gray-700 transition-colors duration-300  md:block"
+          className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white text-black p-3 rounded-full shadow-gray-600 z-10  md:block"
         >
           ‹
         </button>
@@ -92,11 +92,11 @@ const TopPicks = () => {
             {topPicksDetails.map((item, index) => (
               <div
                 key={index}
-                className="flex flex-col items-center justify-center p-6 rounded-lg shadow-lg text-center bg-gradient-to-b from-purple-400/75 via-purple-400/50 to-blue-300/45 flex-none w-64 sm:w-50 md:w-50"
+                className="flex flex-col items-center justify-center p-6 rounded-lg shadow-lg text-center bg-gradient-to-b from-purple-300/75 via-purple-300/50 to-blue-200/45 flex-none w-64 sm:w-50 md:w-50"
                 style={{ scrollSnapAlign: 'center' }}
               >
                 <h2 className="text-2xl font-semibold mb-2 text-gray-800">{item.title}</h2>
-                <img src={item.imgSrc} alt={item.title} className="w-full h-48 object-contain mb-4 rounded-lg" />
+                <img src={item.imgSrc} alt={item.title} className="w-full h-48 object-contain mb-4 rounded-lg transition-transform duration-300 ease-in-out transform hover:scale-110" />
                 <p className="text-gray-600">{item.description}</p>
               </div>
             ))}
@@ -104,7 +104,7 @@ const TopPicks = () => {
         </div>
         <button
           onClick={scrollRight}
-          className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-3 rounded-full shadow-lg z-10 hover:bg-gray-700 transition-colors duration-300  md:block"
+          className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white text-black p-3 rounded-full shadow-gray-600 z-10  md:block"
         >
           ›
         </button>
