@@ -19,19 +19,21 @@ const departments = [
 
 const Department = () => {
   return (
-    <>
-      <div className="Shop-By-Department max-w-7xl mx-auto py-10 px-4">
-        <h1 className="text-center text-3xl font-bold mb-8">SHOP BY DEPARTMENT</h1>
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-x-10 gap-y-10 overflow-x-auto my-10">
-          {departments.map((department, index) => (
-            <div key={index} className="card flex flex-col items-center p-4 shadow-lg rounded-lg">
-              <img src={department.imgSrc} alt={department.text} className="mb-4" />
-              <span className="text-lg font-medium">{department.text}</span>
-            </div>
-          ))}
-        </div>
+    <div className="Shop-By-Department max-w-7xl mx-auto py-10 px-4 mb-5">
+      <h1 className="text-center text-3xl font-bold mb-8">SHOP BY DEPARTMENT</h1>
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-x-10 gap-y-10 overflow-x-auto my-10">
+        {departments.map((department, index) => (
+          <div key={index} className="card flex flex-col items-center p-4 hover:shadow-lg rounded-lg ">
+            <img 
+              src={department.imgSrc} 
+              alt={department.text} 
+              className="mb-4 transition-transform duration-400 ease-in-out transform hover:scale-110" 
+            />
+            <span className="text-lg font-medium">{department.text}</span>
+          </div>
+        ))}
       </div>
-    </>
+    </div>
   );
 }
 
