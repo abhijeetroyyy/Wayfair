@@ -3,9 +3,9 @@ import React, { useState, useEffect, useRef } from 'react';
 
 const images = [
   "https://assets.wfcdn.com/im/82869752/resize-h566-w2000%5Ecompr-r85/2874/287476923/good_vibes_sleep._modern_sleep_science_for_the_best_night%27s_rest._shop_now_287476923.jpg",
-  "https://assets.wfcdn.com/im/82869752/resize-h566-w2000%5Ecompr-r85/2874/287476923/good_vibes_sleep._modern_sleep_science_for_the_best_night%27s_rest._shop_now_287476923.jpg",
-  "https://assets.wfcdn.com/im/99020066/resize-h566-w2000%5Ecompr-r85/2897/289755776/bedroom_essentials%3A_save_on_accent_pillows%2C_duvets%2C_blankets%2C_and_more._shop_now_289755776.jpg",
-  "https://assets.wfcdn.com/im/82869752/resize-h566-w2000%5Ecompr-r85/2874/287476923/good_vibes_sleep._modern_sleep_science_for_the_best_night%27s_rest._shop_now_287476923.jpg"// Add more image URLs as needed
+  "https://assets.wfcdn.com/im/83245673/resize-h566-w2000%5Ecompr-r85/2909/290989943/black_friday_in_july_deals_are_here%21_choose_how_you_pay._shop_now_290989943.jpg",
+  "https://assets.wfcdn.com/im/03749430/resize-h566-w2000%5Ecompr-r85/2909/290998665/sunbrella_sink_into_comfort_that_really_performs._shop_now_290998665.jpg",
+  "https://assets.wfcdn.com/im/12842347/resize-h566-w2000%5Ecompr-r85/2898/289888192/up_to_40%25_off_select_mattresses_%26_more_serta_shop_now_289888192.jpg"// Add more image URLs as needed
 ];
 
 const Slider = () => {
