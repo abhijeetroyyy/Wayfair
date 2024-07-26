@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useRef } from 'react';
-import 'tailwindcss/tailwind.css';
+// import 'tailwindcss/tailwind.css';
 
 // Add your image paths here
 const brands = [
