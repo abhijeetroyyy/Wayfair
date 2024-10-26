@@ -3,6 +3,8 @@
 ## Project Overview
 
 Our team took on the challenge of redesigning Wayfair's UI and theme for the "Re-imagine" competition by Sheryians. Our primary goal was to preserve the core essence of Wayfair while enhancing its user experience and visual appeal. We focused on several key areas to achieve this:
+![Screenshot from 2024-10-26 23-27-19](https://github.com/user-attachments/assets/4797e803-39dd-41be-874b-afdfcbe666d4)
+
 
 ### Key Enhancements
 
